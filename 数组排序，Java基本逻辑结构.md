@@ -10,10 +10,10 @@
 - [insert sort](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
 ### Select Sort
 - select sort scan the whole list and divide the list into two parts. If it finds a smaller element than the current element, it will swap them.
-### Select Sort[https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm]
+- [Select Sort](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
 ### Quick sort
 - this algorithm is a little complex, cause it used a strage called divide and conquer. It also divide the list into two parts but this algorithm do it ieratively.
-- Quick sort[https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm]
+- [Quick sort](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm)
 --------
 # Java Control Flow
 ### if-else
