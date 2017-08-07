@@ -1,4 +1,4 @@
-#Valid Parentheses
+# Valid Parentheses
 ### 问题
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 ### 解题思路
@@ -7,7 +7,7 @@ Given a string containing just the characters '(', ')', '{', '}', '[' and ']', d
 - 我们需要一个线性的存储空间，比如说list，queue，stack来存储左括号。在这里我们选用stack，它具有“后进先出”的特性，就是说后压入栈的元素会先弹出站，可以想象成一个箱子，先放进去的衣服会先拿出来
 - 这样，我们就先scan整个char array，遇到左括号就存起来，遇到右括号就把元素从栈中弹出来一个，判断弹出的左括号是不是和右括号相同类型的，如果相同就接着scan，不相同就报错（return false）
 ### 代码
-code at github[https://github.com/dayhost/Leetcode/blob/master/ValidParenthes.java]
+[code at github](https://github.com/dayhost/Leetcode/blob/master/ValidParenthes.java)
 ### 边界问题
 - 写完代码之后，我们要讨论一下边界条件，也就是说在我们刚才考虑的两种可能性之外的情况，比如说传入字符串为空，或者只有一个左括号，或者只有一个右括号的情况，考察边界条件是否成立是解体很重要的的一环
 - 我们讨论一下边界情况：
